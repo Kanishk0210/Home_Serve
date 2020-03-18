@@ -1,0 +1,86 @@
+.invoice {
+  width: 580px;
+  margin: 20px auto;
+  padding: 20px 0 30px 0;
+  box-shadow: 0 0 300px 0 lightgrey;
+  border-radius: 5px;
+}
+
+.invoice-content {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 30px;
+  margin: 0 auto 10px;
+  background: #4A90E2;
+  border-radius: 6px;
+}
+
+.invoice-header-text {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 7.64px;
+  line-height: 23px;
+}
+
+.invoice-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0 10px;
+  font-weight: 100;
+  color: lightgrey;
+}
+
+.invoice-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.invoice-company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-month-header {
+  width: 150px;
+  margin-bottom: 25px;
+  border-bottom: #e4e4e4 1px solid;
+}
+
+.invoice-table {
+  margin-bottom: 25px;
+}
+
+.invoice-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  background: #00A5FF;
+  border-radius: 10px;
+}
+
+.invoice-total h2 {
+  margin-bottom: 0;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+footer span {
+  display: block;
+  font-weight: 100;
+}
